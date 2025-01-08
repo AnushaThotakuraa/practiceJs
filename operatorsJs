@@ -1,0 +1,148 @@
+VS CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     /*   let a=10
+        let b=5
+        b++
+        a--
+        document.write(b,"<br>")
+        document.write(a,"<br>")
+        document.write(a%b,"<br>")
+        document.write(a/b,"<br>")
+        document.write(a*b,"<br>") */
+
+    /* let a=10
+        let b=5
+        a+=10
+        b-=30
+        document.write(a,"<br>")
+        document.write(b,"<br>") */
+       
+    /*    let a=10
+        let b=5
+        document.write(a>b && b>11,"<br>") */
+       
+    /*  let a=10
+        let b=5 
+        document.write((a>b) && (b>11),"<br>")
+        document.write((a>b) || (b>11),"<br>")
+        document.write(!(true),"<br>") */
+        
+    /*    let a=105
+        let b='105' 
+        document.write(a==b,"<br>")//true
+        document.write(a===b,"<br>")//false
+        document.write(a!=b,"<br>")//false
+        document.write(a!==b,"<br>")//true */
+
+    /*    let t=40
+        let r=(t>40) ? "Ac-off":"Ac-on"
+        document.write(r) //Ac-on */
+     
+     /*   alert("hi js")
+        console.log(alert)
+        document.write(alert) */
+
+    /*    let name=prompt("enter your name")
+        document.write(alert) */
+
+
+        let a=prompt()
+        let b=prompt()
+        console.log(typeof(a)) //string
+        document.write(typeof(a))
+        console.log(a+b)
+       
+    </script>
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+notes
+Operators:
+1.Arithimetic :
++,-,*
+Division-/(q)
+Modulus -%(r)
+Exponential(raised to the power)-**,++,--
+ let a=10
+        let b=5
+        b++
+        a--
+        document.write(b,"<br>")
+        document.write(a,"<br>")
+        document.write(a%b,"<br>")
+        document.write(a/b,"<br>")
+        document.write(a*b,"<br>")
+
+2.Assignment operator
+Var student=”anu”
+        let a=10
+        let b=5
+        a+=10
+        b-=30
+        document.write(a,"<br>")
+        document.write(b,"<br>")
+3.logical operator
+And:&&
+when both condition is true(t or t =t)
+
+
+Or ://
+ when any of one condition is true(t or f =f)
+not:!
+Example: 
+        let a=10
+        let b=5 
+        document.write((a>b) && (b>11),"<br>")
+        document.write((a>b) || (b>11),"<br>")
+        document.write(!(true),"<br>")
+
+4.relational operators(comparison)
+<,>,<=,>=,
+==(equality)
+It check value not data type
+===
+It checks both value and data type
+!=,!==
+ let a=105
+  let b='105' 
+        document.write(a==b,"<br>")//true
+        document.write(a===b,"<br>")//false
+        document.write(a!=b,"<br>")//false
+        document.write(a!==b,"<br>")//true
+conditional operator: Ternnary operator(?)
+first evaluates an expresion for true or false 
+Syntax
+Condition? Exp1:exp2
+example
+ let t=40
+ let r=(t>40) ? "Ac-off":"Ac-on"
+ document.write(r) //Ac-on
+
+Window methods:
+alert()
+example:
+        alert("hi js")
+        console.log(alert)
+        document.write(alert)
+
+prompt()
+is used to take input from the user
+Example1:
+        let name=prompt("enter your name")
+        document.write(alert)
+Example 2:
+let a=prompt()
+ let b=prompt()
+        console.log(typeof(a)) //string
+        document.write(typeof(a))
+        console.log(a+b)
+the prompt consider value as string by deafult
