@@ -1,0 +1,106 @@
+VS CODE
+<script>
+     /*   let a=4
+        let b=5
+        if(a<b){
+            document.write("hello write","<br>")
+        }
+        document.write("js")*/
+
+     /*   let age=prompt("Enter your age:")
+        let name=prompt("Enter your name:")
+        if(age<18){
+            alert(name+"you are too young to marry")
+        }else if(age>35){
+            alert(name+"you are to old to marry")
+
+        }else {
+            alert(name+"perfect age  to marry")
+        }
+        alert("welcome to my world") */
+
+        let A=prompt("Enter the score of A:")
+        let B=prompt("Enter the score of B:")
+        sum=A+B
+        if(A>300 || B>300){
+             alert("can team up")
+            
+
+        }else if(sum<500){
+            alert("cant team up")
+        }
+       
+    </script>
+
+
+NOTES
+              
+conditinal satements:
+1.to make the set instructions(bolck of instructions) execute when the given condition  is true
+2.used to decide whether the code has to be executed or skip bases on the given condition
+
+Codition:an expression that evaluates an result(true or false)
+Example:console.log(5>6)
+Methods:
+If
+only one possible condition
+If the condition is true it will execute otherwise it skip
+Syntax:
+If(condition){
+//code
+}
+Example
+    let a=4
+        let b=5
+        if(a<b){
+            document.write("hello write","<br>")
+        }
+        document.write("js")
+if condition true it executes both 
+if false only out of block is executed
+output:
+hello write
+js
+If-else:
+        let a=4
+        let b=5
+        if(a>b){
+            document.write("hello write","<br>")
+        }else{
+        document.write("js","<br>")
+
+        }
+        document.write("code")
+if condition is false it executes else block and out of block code
+
+Else if
+ let age=prompt("Enter your age:")
+        let name=prompt("Enter your name:")
+        if(age<18){
+            alert(name+"you are too young to marry")
+        }else if(age>35){
+            alert(name+"you are to old to marry")
+
+        }else {
+            alert(name+"perfect age  to marry")
+        }
+        alert("welcome to my world")
+       
+
+Examle
+        let A=prompt("Enter the score of A:")
+        let B=prompt("Enter the score of B:")
+        sum=A+B
+        if(A>300 || B>300){
+             alert("can team up")
+            
+
+        }else if(sum<500){
+            alert("cant team up")
+        }
+
+
+              
+              
+
+              
